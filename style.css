@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Ultra&family=Yatra+One&display=swap');
 /* CSS Variables */
 :root {
+/* color pallet */
+--color1- :rgb(175, 210, 216);
+--color2- :black;
+--color3- :rgb(230, 190, 143);
+--color4- :rgba(185, 183, 183, 0.466);
+
+
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: var(--color2-);
     /* audio controls background */
-    --plyr-video-controls-background: black;
+    --plyr-video-controls-background:var(--color4-) ;
     /* audio controls color */
-    --plyr-video-control-color: white;
+    --plyr-video-control-color:var(--color3-) ;
 }
 
+ 
 body {
-    background: gray;
+    background: rgb(230, 190, 143);
+    css-pa
 }
+
 
 /* Layout */
 main {
@@ -18,14 +29,26 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: rgb(175, 210, 216);
 }
 
 main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+    
 }
+
+
+.plyr--video {
+    background:black;
+    border:5px solid black;
+    border-radius: 4px;
+    max-width:450px;
+    position:relative;right:-20px;top:20px;
+
+  }
+
 
 /* Primary Content */
 article {
@@ -33,6 +56,13 @@ article {
     display: flex;
     gap: 1em;
     justify-content: center;
+    font-family: "Neucha", cursive;
+    
+}
+
+p {
+   padding:15px;
+   position:relative; right:-20px;
 }
 
 article section,
@@ -43,8 +73,33 @@ article aside {
 
 /* Aside */
 article aside a {
-    display: block;
+    display:inline;
+    padding:20px;
+    text-decoration:none;
+    position:relative;right:-10%;top:-70%;
+    font-size: 1.20rem;
+    border: white;
+      }
+
+a {
+   color:black;
+   font-weight: 400;
 }
+
+a:hover{
+    color:rgb(230, 190, 143)
+}
+
+
+aside img{
+   position:relative;right:-9%;
+   width:400px;
+   border:5px solid rgb(255, 255, 255);
+   border-radius: 4px;
+
+   
+}
+
 
 /* Footer */
 footer {
