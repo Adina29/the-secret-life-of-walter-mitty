@@ -14,3 +14,7 @@
 
 ## Citations
 * Your citations go here
+https://fonts.google.com/specimen/Neucha?query=Neucha
+https://www.fandango.com/the-secret-life-of-walter-mitty-2013-98147/movie-overview
+https://www.metacritic.com/movie/the-secret-life-of-walter-mitty/
+https://www.amctheatres.com/movies/the-secret-life-of-walter-mitty-40744
